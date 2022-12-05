@@ -1,6 +1,29 @@
+
+
 $theme-colors: (
     "primary": rgb(168, 62, 62)  
   );
+  .hero--banner{    
+    background-image: url("https://stayatthei.com/sites/default/files/Air%20Quality%20Banner2.png") ;
+	background-repeat: no-repeat;
+    height: 400px;
+    
+}
+.mask{
+    background-color: rgba(15, 15, 15, 0.808);
+    height: 200px;  
+    position:relative;
+    margin: auto;
+    width: 600px;
+    min-width: 320px;
+   
+}
+
+  @media (min-width: 992px) {
+        .mask{
+     
+        }
+  }
 
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
 

@@ -1,4 +1,19 @@
 @charset "UTF-8";
+.hero--banner {
+  background-image: url("https://stayatthei.com/sites/default/files/Air%20Quality%20Banner2.png");
+  background-repeat: no-repeat;
+  height: 400px;
+}
+
+.mask {
+  background-color: rgba(15, 15, 15, 0.808);
+  height: 200px;
+  position: relative;
+  margin: auto;
+  width: 600px;
+  min-width: 320px;
+}
+
 /*!
  * Bootstrap  v5.2.3 (https://getbootstrap.com/)
  * Copyright 2011-2022 The Bootstrap Authors
