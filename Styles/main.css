@@ -1,0 +1,41 @@
+.hero--banner {
+    background-image: url('https://cache.marriott.com/marriottassets/marriott/PUJWI/pujwi-outdoor-pool-5422-hor-feat.jpg?interpolation=progressive-bilinear&downsize=2000px:*');
+    height: 400px;
+
+    text-align: center;
+    background-repeat: no-repeat;
+}
+
+.mask {
+    background-color: #00000086;
+    width: 100%;
+    height: 200px;
+    padding: 30px;
+
+}
+/* Default height for small devices */
+#intro-example {
+    height: 400px;
+}
+.container{
+    padding: 30px;
+}
+
+
+
+
+
+
+
+/* Height for devices larger than 992px */
+@media (min-width: 992px) {
+    #intro-example {
+        height: 600px;
+    }
+    .mask {
+        background-color: #00000086;
+        width: 100%;
+        height: 250px;
+    }
+}
+
