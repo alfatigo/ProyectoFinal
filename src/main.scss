@@ -100,4 +100,22 @@ body {
   text-align: center;
   font-weight: 700;
 }
+
+.about-us{
+  background-color: red;
+}
+.about-us img{
+  position: relative; 
+  width: 585px;
+  height: 390px;
+  overflow: hidden;
+  border-radius: 3px;
+}
+
+@media (max-width: 1024px){
+  .about-us img{
+
+
+  }
+}
 @import "../node_modules/bootstrap/scss/bootstrap.scss";

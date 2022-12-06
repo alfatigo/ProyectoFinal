@@ -82,6 +82,18 @@ body {
   font-weight: 700;
 }
 
+.about-us {
+  background-color: red;
+}
+
+.about-us img {
+  position: relative;
+  width: 585px;
+  height: 390px;
+  overflow: hidden;
+  border-radius: 3px;
+}
+
 /*!
  * Bootstrap  v5.2.3 (https://getbootstrap.com/)
  * Copyright 2011-2022 The Bootstrap Authors
