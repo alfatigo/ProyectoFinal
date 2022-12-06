@@ -6,9 +6,11 @@
 body {
   min-width: 420px;
   background-color: rgba(247, 250, 247, 0.9098039216) !important;
+  font-size: 62.5%;
 }
 
 .navbar {
+  font-size: 1.2em;
   background-color: #007a1c;
 }
 
