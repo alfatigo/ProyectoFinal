@@ -1,32 +1,103 @@
+$blue: #22457a !default;
+$indigo: #6610f2 !default;
+$purple: #6f42c1 !default;
+$pink: #d63384 !default;
+$red: #dc3545 !default;
+$orange: #fd7e14 !default;
+$yellow: #ffc107 !default;
+$green: #007a1c !default;
+$teal: #20c997 !default;
+$cyan: #0dcaf0 !default;
 
-
-$theme-colors: (
-    "primary": rgb(168, 62, 62)  
-  );
-  .hero--banner{    
-    background-image: url("https://stayatthei.com/sites/default/files/Air%20Quality%20Banner2.png") ;
-	background-repeat: no-repeat;
-    height: 400px;
-    
+* {
+  box-sizing: border-box;
+  
 }
-.mask{
-    background-color: rgba(15, 15, 15, 0.808);
-    height: 200px;  
-    position:relative;
-    margin: auto;
-    width: 600px;
-    min-width: 320px;
+
+body {
+  min-width: 420px;
+  background-color: #f7faf7e8 !important;
+}
+
+.navbar {
+  background-color: #007a1c;
+}
+
+.hero--banner {
+  background-image: url("https://stayatthei.com/sites/default/files/Air%20Quality%20Banner2.png");
+  background-repeat: no-repeat;
+  height: 400px;
+  margin-bottom: 35px;
+}
+.mask {
+  background-color: rgba(15, 15, 15, 0.808);
+  height: 200px;
+  position: relative;
+  margin: auto;
+  max-width: 600px;
+  min-width: 320px;
+  border-radius: 3px;
+}
+
+.btn-coloring {
+  background-color: #007a1c;
+}
+
+@media (max-width: 760px) {
+  .mask {
+  }
+}
+.section-info{
+  display: grid;
+  padding: 50px;
+  padding-right: 20px;
+  justify-content: center;
+  border: solid 1px green;
+}
+
+.context-fly{
+  padding: 20px;
+  color: white;
+  background-color: #007a1c;
+ 
+  border-radius: 3px;
+}
+.section-info p{
+  padding: 20px;
+  padding-right: 20px;
+  display: block;
+  margin: auto;
+
+
+}
+.section-info__about{
+
+  display: block;
+  border-top: 2px solid rgb(209, 209, 209);
+  border-bottom: 2px solid rgb(209, 209, 209);  
+  padding: 50px;
+
+  margin-top: 100px;
+
+}
+.card{
+  border: none !important;
+  text-align:justify !important;
+  width: 365px !important;
+  
+}
+
+.card-image{
+    position: relative; 
+    width: 365px;
+    height: 234px;
+    overflow: hidden;
+    border-radius: 3px;
+  
    
 }
-
-  @media (min-width: 992px) {
-        .mask{
-     
-        }
-  }
-
+.card-title{
+  text-align: center;
+  font-weight: 700;
+}
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
-
-
-
-
